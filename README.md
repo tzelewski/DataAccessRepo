@@ -15,5 +15,5 @@ Example usage:
 
                 return (name, address);
 
-            }, "select name, address from person");
+            }, "select name, address from person where lastName like @lastName", ("@lastName", "Smith");
         }
