@@ -1,7 +1,7 @@
 # DataAccessRepo
 Simple utility class to manage SQL connection and execution of SQL queries
 
-It provides an easy way to abstract out the creation, usage and maintenance of IDbConnection, DbCommand and DbDataReader. Eeasy to use and unit test.
+It provides an easy way to abstract out the creation, usage and maintenance of IDbConnection, DbCommand and DbDataReader. Easy to use, inject and unit test.
 
 Example usage:
 
