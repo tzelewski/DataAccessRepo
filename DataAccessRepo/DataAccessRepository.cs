@@ -44,10 +44,4 @@
             return resultList;
         }
     }
-
-    public interface IDbRepository
-    {
-        Task<IList<T>> ExecuteQuery<T>(Func<DbDataReader, T> getResult, string query,
-            params (string parameterName, string value)[] parameters)
-    }
 }
